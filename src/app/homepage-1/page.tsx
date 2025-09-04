@@ -91,9 +91,9 @@ export default function Home() {
 
       <section className="py-12 px-6 md:px-24 lg:px-32 flex flex-row items-center gap-6 md:gap-16">
         <div className="w-1/2 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-4">Today's Special</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-4">Today&apos;s Special</h2>
           <p className="text-base md:text-lg font-light mb-4 md:mb-4">
-            Try our signature Caramel Latte with hand-crafted vanilla foam and a touch of sea salt. Freshly brewed, made with love.
+            Try our signature Caramel Latte with hand&apos;crafted vanilla foam...
           </p>
           <button className="px-6 py-2 md:px-8 md:py-3 border border-gray-900 text-gray-900 font-medium hover:bg-gray-900 hover:text-white transition">
             Order Now
@@ -197,7 +197,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {[
             { name: "Sophia L.", text: "The caramel latte is a work of art! Every sip is perfection.", img: "/testi1.jpg" },
-            { name: "James R.", text: "Best cafe experience I've ever had. Cozy and luxurious ambiance.", img: "/testi2.jpg" },
+            { name: "James R.", text: "Best cafe experience I&apos;ve ever had. Cozy and luxurious ambiance.", img: "/testi2.jpg" },
             { name: "Lily M.", text: "A true paradise for coffee lovers. The flavors are unmatched.", img: "/testi3.jpg" },
           ].map((t, idx) => (
             <div key={idx} className="flex flex-col items-center text-center gap-4 p-6 border border-gray-100 rounded-xl shadow-sm hover:shadow-lg transition">

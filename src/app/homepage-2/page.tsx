@@ -174,7 +174,7 @@ export default function CozyHome() {
                   className="object-cover"
                 />
               </div>
-              <p className="text-gray-800 italic mb-4">"{item.review}"</p>
+              <p className="text-gray-800 italic mb-4">&quot;{item.review}&quot;</p>
               <p className="font-semibold text-orange-900">{item.name}</p>
             </div>
           ))}
